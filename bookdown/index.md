@@ -49,4 +49,4 @@ Specifically, we discovered <XYZ thing we found in more depth>.
   
   ![Free-living Symbiont Infection Chance](../../Graphs/svtr plot/fic.png)
   
-  ![Graph Check](fsc.png)
+  ![Graph Check](../fsc.png)

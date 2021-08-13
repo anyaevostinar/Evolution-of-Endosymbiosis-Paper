@@ -47,6 +47,3 @@ Specifically, we discovered <XYZ thing we found in more depth>.
 - We found XYZ
 - We found XYZ
   
-  ![Free-living Symbiont Infection Chance](../Graphs/svtr_plot/fic.png)
-  
-  ![Graph Check](../Graphs/'svtr plot'/fic.png)

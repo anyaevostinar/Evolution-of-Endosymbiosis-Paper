@@ -148,30 +148,30 @@ Settings: Mixed Interaction Value, Mixed Infection Chance, Mutation Rate 0.05, F
 **Host Interaction Value**
 ![Host Symbiont Interaction Value](../Graphs/mixed_ivic_mts0.05_fr0.0/hv.png)
 
-## Graphs 7 ../Graphs/mixedivic_plots_shtr400_fr_0.5_mts_0.02
+## Graphs 7 mixed ivic sht 400
 
 Settings: Mixed Infection Chance, Mixed Interaction Value,  Symbiont Horizontal Transmission Rate 400, Mutation Size 0.02, Failure Rate 0.5
 
 **Free-living Symbiont Infection Chance**
-![Free-living Symbiont Infection Chance](../Graphs/mixedivic_plots_shtr400_fr_0.5_mts_0.02/mixedivic_plots shtr400/fic.png)
+![Free-living Symbiont Infection Chance](../Graphs/mixedivic_plots_shtr400_fr_0.5_mts_0.02/mixedivic_plots_shtr400/fic.png)
 
 **Free-living Symbiont Count**
-![Free-living Symbiont Count](../Graphs/mixedivic_plots_shtr400_fr_0.5_mts_0.02/mixedivic_plots shtr400/fsc.png)
+![Free-living Symbiont Count](../Graphs/mixedivic_plots_shtr400_fr_0.5_mts_0.02/mixedivic_plots_shtr400/fsc.png)
 
 **Free-living Symbiont Interaction Value**
-![Free-living Symbiont Interaction Value](../Graphs/mixedivic_plots_shtr400_fr_0.5_mts_0.02/mixedivic_plots shtr400/fsv.png)
+![Free-living Symbiont Interaction Value](../Graphs/mixedivic_plots_shtr400_fr_0.5_mts_0.02/mixedivic_plots_shtr400/fsv.png)
 
 **Hosted Symbiont Infection Chance**
-![Hosted Symbiont Infection Chance](../Graphs/mixedivic_plots_shtr400_fr_0.5_mts_0.02/mixedivic_plots shtr400/hic.png)
+![Hosted Symbiont Infection Chance](../Graphs/mixedivic_plots_shtr400_fr_0.5_mts_0.02/mixedivic_plots_shtr400/hic.png)
 
 **Hosted Symbiont Count**
-![Hosted Symbiont Count](../Graphs/mixedivic_plots_shtr400_fr_0.5_mts_0.02/mixedivic_plots shtr400/hsc.png)
+![Hosted Symbiont Count](../Graphs/mixedivic_plots_shtr400_fr_0.5_mts_0.02/mixedivic_plots_shtr400/hsc.png)
 
 **Hosted Symbiont Interaction Value**
-![Free-living Symbiont Interaction Value](../Graphs/mixedivic_plots_shtr400_fr_0.5_mts_0.02/mixedivic_plots shtr400/hsv.png)
+![Free-living Symbiont Interaction Value](../Graphs/mixedivic_plots_shtr400_fr_0.5_mts_0.02/mixedivic_plots_shtr400/hsv.png)
 
 **Host Interaction Value**
-![Host Symbiont Interaction Value](../Graphs/mixedivic_plots_shtr400_fr_0.5_mts_0.02/mixedivic_plots shtr400/hv.png)
+![Host Symbiont Interaction Value](../Graphs/mixedivic_plots_shtr400_fr_0.5_mts_0.02/mixedivic_plots_shtr400/hv.png)
 
 ## Graph 8 moveon plots
 Settings: Movement on, Symbiont Horizontal Transmission Rate 400, Mutation Size 0.02, Infection rate 0.5

@@ -8,96 +8,96 @@ Settings: Symbiont Vertical Transmission Rate Sweep, Symbiont Horizontal Transmi
 ![Free-living Symbiont Infection Chance](../Graphs/svtr_plot/fic.png)
 
 **Free-living Symbiont Count**
-![Free-living Symbiont Count](svtr plot/fsc.png)
+![Free-living Symbiont Count](../Graphs/svtr_plot/fsc.png)
 
 **Free-living Symbiont Interaction Value**
-![Free-living Symbiont Interaction Value](svtr plot/fsv.png)
+![Free-living Symbiont Interaction Value](../Graphs/svtr_plot/fsv.png)
 
 **Hosted Symbiont Infection Chance**
-![Hosted Symbiont Infection Chance](svtr plot/hic.png)
+![Hosted Symbiont Infection Chance](../Graphs/svtr_plot/hic.png)
 
 **Hosted Symbiont Count**
-![Hosted Symbiont Count](svtr plot/hsc.png)
+![Hosted Symbiont Count](../Graphs/svtr_plot/hsc.png)
 
 **Hosted Symbiont Interaction Value**
-![Free-living Symbiont Interaction Value](svtr plot/hsv.png)
+![Free-living Symbiont Interaction Value](../Graphs/svtr_plot/hsv.png)
 
 **Host Interaction Value**
-![Host Symbiont Interaction Value](svtr plot/hv.png)
+![Host Symbiont Interaction Value](../Graphs/svtr_plot/hv.png)
 
 ## Graphs 2 shtr plots
 Settings: Symbiont Horizontal Transmission Rate Sweep, Symbiont Vertical Transmission Rate 0, Mutation Rate 0.05, Infection rate 0.0
 
 **Free-living Symbiont Infection Chance**
-![Free-living Symbiont Infection Chance](shtr plots/fic.png)
+![Free-living Symbiont Infection Chance](../Graphs/shtr_plots/fic.png)
 
 **Free-living Symbiont Count**
-![Free-living Symbiont Count](shtr plots/fsc.png)
+![Free-living Symbiont Count](../Graphs/shtr_plots/fsc.png)
 
 **Free-living Symbiont Interaction Value**
-![Free-living Symbiont Interaction Value](shtr plots/fsv.png)
+![Free-living Symbiont Interaction Value](../Graphs/shtr_plots/fsv.png)
 
 **Hosted Symbiont Infection Chance**
-![Hosted Symbiont Infection Chance](shtr plots/hic.png)
+![Hosted Symbiont Infection Chance](../Graphs/shtr_plots/hic.png)
 
 **Hosted Symbiont Count**
-![Hosted Symbiont Count](shtr plots/hsc.png)
+![Hosted Symbiont Count](../Graphs/shtr_plots/hsc.png)
 
 **Hosted Symbiont Interaction Value**
-![Free-living Symbiont Interaction Value](shtr plots/hsv.png)
+![Free-living Symbiont Interaction Value](../Graphs/shtr_plots/hsv.png)
 
 **Host Interaction Value**
-![Host Symbiont Interaction Value](shtr plots/hv.png)
+![Host Symbiont Interaction Value](../Graphs/shtr_plots/hv.png)
 
 ## Graphs 3 shtr400
 
 Settings: Symbiont Horizontal Transmission Rate 400, Mutation Size 0.02, Infection rate 0.5
 
 **Free-living Symbiont Infection Chance**
-![Free-living Symbiont Infection Chance](shtr400 mts 0.02 ifr 0.5 plots/fic.png)
+![Free-living Symbiont Infection Chance](../Graphs/shtr400_mts_0.02_ifr_0.5_plots/fic.png)
 
 **Free-living Symbiont Count**
-![Free-living Symbiont Count](shtr400 mts 0.02 ifr 0.5 plots/fsc.png)
+![Free-living Symbiont Count](../Graphs/shtr400_mts_0.02_ifr_0.5_plots/fsc.png)
 
 **Free-living Symbiont Interaction Value**
-![Free-living Symbiont Interaction Value](shtr400 mts 0.02 ifr 0.5 plots/fsv.png)
+![Free-living Symbiont Interaction Value](../Graphs/shtr400_mts_0.02_ifr_0.5_plots/fsv.png)
 
 **Hosted Symbiont Infection Chance**
-![Hosted Symbiont Infection Chance](shtr400 mts 0.02 ifr 0.5 plots/hic.png)
+![Hosted Symbiont Infection Chance](../Graphs/shtr400_mts_0.02_ifr_0.5_plots/hic.png)
 
 **Hosted Symbiont Count**
-![Hosted Symbiont Count](shtr400 mts 0.02 ifr 0.5 plots/hsc.png)
+![Hosted Symbiont Count](../Graphs/shtr400_mts_0.02_ifr_0.5_plots/hsc.png)
 
 **Hosted Symbiont Interaction Value**
-![Free-living Symbiont Interaction Value](shtr400 mts 0.02 ifr 0.5 plots/hsv.png)
+![Free-living Symbiont Interaction Value](../Graphs/shtr400_mts_0.02_ifr_0.5_plots/hsv.png)
 
 **Host Interaction Value**
-![Host Symbiont Interaction Value](shtr400 mts 0.02 ifr 0.5 plots/hv.png)
+![Host Symbiont Interaction Value](../Graphs/shtr400_mts_0.02_ifr_0.5_plots/hv.png)
 
 ## Graphs 4 gridon plots
  
 Settings: Symbiont Horizontal Transmission Rate 400, Mutation Size 0.02, Mutation Rate 1, Grid on
 
 **Free-living Symbiont Infection Chance**
-![Free-living Symbiont Infection Chance](gridon plots/fic.png)
+![Free-living Symbiont Infection Chance](../Graphs/gridon_plots/fic.png)
 
 **Free-living Symbiont Count**
-![Free-living Symbiont Count](gridon plots/fsc.png)
+![Free-living Symbiont Count](../Graphs/gridon_plots/fsc.png)
 
 **Free-living Symbiont Interaction Value**
-![Free-living Symbiont Interaction Value](gridon plots/fsv.png)
+![Free-living Symbiont Interaction Value](../Graphs/gridon_plots/fsv.png)
 
 **Hosted Symbiont Infection Chance**
-![Hosted Symbiont Infection Chance](gridon plots/hic.png)
+![Hosted Symbiont Infection Chance](../Graphs/gridon_plots/hic.png)
 
 **Hosted Symbiont Count**
-![Hosted Symbiont Count](gridon plots/hsc.png)
+![Hosted Symbiont Count](../Graphs/gridon_plots/hsc.png)
 
 **Hosted Symbiont Interaction Value**
-![Free-living Symbiont Interaction Value](gridon plots/hsv.png)
+![Free-living Symbiont Interaction Value](../Graphs/gridon_plots/hsv.png)
 
 **Host Interaction Value**
-![Host Symbiont Interaction Value](gridon plots/hv.png)
+![Host Symbiont Interaction Value](../Graphs/gridon_plots/hv.png)
 
 ## Graph 5 ifr sweep
 

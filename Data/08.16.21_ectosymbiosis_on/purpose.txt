@@ -1,0 +1,1 @@
+This test examined the de novo evolution of endosymbiosis when a facultative intermediate symbiosis (ectosymbiosis) was implemented. In this test, hosts with an endosymbiont still interact with ectosymbionts.

@@ -2,7 +2,7 @@
 The following are the graphs that we generated in our research.
 
 ## Graphs 1 svtr plot
-Settings: Symbiont Vertical Transmission Rate Sweep, Symbiont Horizontal Transmission Rate 400, Mutation Rate 0.05, Infection rate 0.5
+Settings: Symbiont Vertical Transmission Resource Cost Sweep, Symbiont Horizontal Transmission Resource Cost 400, Mutation Rate 0.05, Infection rate 0.5
 
 **Free-living Symbiont Infection Chance**
 ![Free-living Symbiont Infection Chance](../Graphs/svtr_plot/fic.png)
@@ -26,7 +26,7 @@ Settings: Symbiont Vertical Transmission Rate Sweep, Symbiont Horizontal Transmi
 ![Host Symbiont Interaction Value](../Graphs/svtr_plot/hv.png)
 
 ## Graphs 2 shtr plots
-Settings: Symbiont Horizontal Transmission Rate Sweep, Symbiont Vertical Transmission Rate 0, Mutation Rate 0.05, Infection rate 0.0
+Settings: Symbiont Horizontal Transmission Resource Cost Sweep, Symbiont Vertical Transmission Resource Cost 0, Mutation Rate 0.05, Infection rate 0.0
 
 **Free-living Symbiont Infection Chance**
 ![Free-living Symbiont Infection Chance](../Graphs/shtr_plots/fic.png)
@@ -51,7 +51,7 @@ Settings: Symbiont Horizontal Transmission Rate Sweep, Symbiont Vertical Transmi
 
 ## Graphs 3 shtr400
 
-Settings: Symbiont Horizontal Transmission Rate 400, Mutation Size 0.02, Infection rate 0.5
+Settings: Symbiont Horizontal Transmission Resource Cost 400, Mutation Size 0.02, Infection rate 0.5
 
 **Free-living Symbiont Infection Chance**
 ![Free-living Symbiont Infection Chance](../Graphs/shtr400_mts_0.02_ifr_0.5_plots/fic.png)
@@ -75,8 +75,8 @@ Settings: Symbiont Horizontal Transmission Rate 400, Mutation Size 0.02, Infecti
 ![Host Symbiont Interaction Value](../Graphs/shtr400_mts_0.02_ifr_0.5_plots/hv.png)
 
 ## Graphs 4 gridon plots
- 
-Settings: Symbiont Horizontal Transmission Rate 400, Mutation Size 0.02, Mutation Rate 1, Grid on
+
+Settings: Symbiont Horizontal Transmission Resource Cost 400, Mutation Size 0.02, Mutation Rate 1, Grid on
 
 **Free-living Symbiont Infection Chance**
 ![Free-living Symbiont Infection Chance](../Graphs/gridon_plots/fic.png)
@@ -101,7 +101,7 @@ Settings: Symbiont Horizontal Transmission Rate 400, Mutation Size 0.02, Mutatio
 
 ## Graph 5 ifr sweep
 
-Settings: Symbiont Infection Rate Sweep, Symbiont Horizontal Transmission Rate 400, Mutation Size 0.02, Infection rate 0.5
+Settings: Symbiont Infection Rate Sweep, Symbiont Horizontal Transmission Resource Cost 400, Mutation Size 0.02, Infection rate 0.5
 
 **Free-living Symbiont Infection Chance**
 ![Free-living Symbiont Infection Chance](../Graphs/ifr_sweep_mts0.02_shtr400_ifr_0.5/fic.png)
@@ -150,7 +150,7 @@ Settings: Mixed Interaction Value, Mixed Infection Chance, Mutation Rate 0.05, F
 
 ## Graphs 7 mixed ivic sht 400
 
-Settings: Mixed Infection Chance, Mixed Interaction Value,  Symbiont Horizontal Transmission Rate 400, Mutation Size 0.02, Failure Rate 0.5
+Settings: Mixed Infection Chance, Mixed Interaction Value,  Symbiont Horizontal Transmission Resource Cost 400, Mutation Size 0.02, Failure Rate 0.5
 
 **Free-living Symbiont Infection Chance**
 ![Free-living Symbiont Infection Chance](../Graphs/mixedivic_plots_shtr400_fr_0.5_mts_0.02/fic.png)
@@ -174,7 +174,7 @@ Settings: Mixed Infection Chance, Mixed Interaction Value,  Symbiont Horizontal 
 ![Host Symbiont Interaction Value](../Graphs/mixedivic_plots_shtr400_fr_0.5_mts_0.02/hv.png)
 
 ## Graph 8 moveon plots
-Settings: Movement on, Symbiont Horizontal Transmission Rate 400, Mutation Size 0.02, Infection rate 0.5
+Settings: Movement on, Symbiont Horizontal Transmission Resource Cost 400, Mutation Size 0.02, Infection rate 0.5
 
 **Free-living Symbiont Infection Chance**
 ![Free-living Symbiont Infection Chance](../Graphs/moveon_plots/fic.png)
@@ -199,7 +199,7 @@ Settings: Movement on, Symbiont Horizontal Transmission Rate 400, Mutation Size 
 
 ## Graph 9
 
-Settings: Symbiont Vertical Transmission Rate Sweep, Symbiont Horizontal Transmission Rate 400, Mutation Rate 0.05, Infection rate 0.5
+Settings: Symbiont Vertical Transmission Resource Cost Sweep, Symbiont Horizontal Transmission Resource Cost 400, Mutation Rate 0.05, Infection rate 0.5
 
 **Free-living Symbiont Infection Chance**
 ![Free-living Symbiont Infection Chance](../Graphs/mts_sweep_plots/fic.png)
@@ -221,6 +221,3 @@ Settings: Symbiont Vertical Transmission Rate Sweep, Symbiont Horizontal Transmi
 
 **Host Interaction Value**
 ![Host Symbiont Interaction Value](../Graphs/mts_sweep_plots/hv.png)
-
-
-

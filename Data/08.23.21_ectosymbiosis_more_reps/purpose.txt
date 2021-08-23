@@ -1,0 +1,1 @@
+This experiment is a rerun of the 08.19 experiment, but with a larger number of reps: 1001-1030 instead of 10-21 (inclusive for both ranges).

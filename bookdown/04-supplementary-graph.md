@@ -73,48 +73,215 @@ This set of graphs explores the impacts of ectosymbiosis, and immunity, on evolu
 
 
 
+## Graphs 08.18.21 Symbiont vertical transmission resource minimum sweep
+With this experiment we hoped to improve conditions for hosted symbionts by giving their hosts more resources and checking at what svtr mutualism evolves. (graphs are wrapped by SVTR)
+
+**Host Interaction Value**
+![Host Symbiont Interaction Value](../Graphs/08.18.21_svtr_sweep/hv.png)
+
+**Free-living Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.18.21_svtr_sweep/fsv.png)
+
+**Hosted Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.18.21_svtr_sweep/hsv.png)
+
+**Free-living Symbiont Infection Chance**
+![Free-living Symbiont Infection Chance](../Graphs/08.18.21_svtr_sweep/fic.png)
+
+**Hosted Symbiont Infection Chance**
+![Hosted Symbiont Infection Chance](../Graphs/08.18.21_svtr_sweep/hic.png)
+
+**Free-living Symbiont Count**
+![Free-living Symbiont Count](../Graphs/08.18.21_svtr_sweep/fsc.png)
+
+**Hosted Symbiont Count**
+![Hosted Symbiont Count](../Graphs/08.18.21_svtr_sweep/hsc.png)
+
+**Free Symbiont Interaction Value Histogram**
+![Free Symbiont Interaction Value Histogram](../Graphs/08.18.21_svtr_sweep/fsv_svtr_hist.png)
+
+**Free Symbiont Infection Chance Histogram**
+![Free Symbiont Infection Chance Histogram](../Graphs/08.18.21_svtr_sweep/fic_svtr_hist.png)
+
+**Hosted Symbiont Interaction Value Histogram**
+![Hosted Symbiont Interaction Value Histogram](../Graphs/08.18.21_svtr_sweep/hsv_svtr_hist.png)
+
+**Hosted Symbiont Infection Chance Histogram**
+![Hosted Symbiont Infection Chance Histogram](../Graphs/08.18.21_svtr_sweep/hic_svtr_hist.png)
 
 
+## Graphs 08.16.21 De novo evolution of symbiosis
+Here we examine the de novo evolution of symbiosis at these settings, which are used for the rest of the 08.16.21 experiments (with some modification).
+
+**Host Interaction Value**
+![Host Symbiont Interaction Value](../Graphs/08.16.21_denovo_baseline/hv.png)
+
+**Free-living Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.16.21_denovo_baseline/fsv.png)
+
+**Hosted Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.16.21_denovo_baseline/hsv.png)
+
+**Free-living Symbiont Infection Chance**
+![Free-living Symbiont Infection Chance](../Graphs/08.16.21_denovo_baseline/fic.png)
+
+**Hosted Symbiont Infection Chance**
+![Hosted Symbiont Infection Chance](../Graphs/08.16.21_denovo_baseline/hic.png)
+
+**Free-living Symbiont Count**
+![Free-living Symbiont Count](../Graphs/08.16.21_denovo_baseline/fsc.png)
+
+**Hosted Symbiont Count**
+![Hosted Symbiont Count](../Graphs/08.16.21_denovo_baseline/hsc.png)
 
 
+## Graphs 08.16.21 Mixed starting interaction values and infection chance
+With this experiment, we observed whether new settings yielded significant symbioses when hosts and symbionts began with randomized interaction values (rather than the traditional 0), and symbionts with randomized infection chance (again opposed to the standard 0).
+
+**Host Interaction Value**
+![Host Symbiont Interaction Value](../Graphs/08.16.21_mixed_starting_ivic/hv.png)
+
+**Free-living Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.16.21_mixed_starting_ivic/fsv.png)
+
+**Hosted Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.16.21_mixed_starting_ivic/hsv.png)
+
+**Free-living Symbiont Infection Chance**
+![Free-living Symbiont Infection Chance](../Graphs/08.16.21_mixed_starting_ivic/fic.png)
+
+**Hosted Symbiont Infection Chance**
+![Hosted Symbiont Infection Chance](../Graphs/08.16.21_mixed_starting_ivic/hic.png)
+
+**Free-living Symbiont Count**
+![Free-living Symbiont Count](../Graphs/08.16.21_mixed_starting_ivic/fsc.png)
+
+**Hosted Symbiont Count**
+![Hosted Symbiont Count](../Graphs/08.16.21_mixed_starting_ivic/hsc.png)
 
 
+## Graphs 08.16.21 Free symbiont resource distribute sweep with mixed starting interaction values and infection chance
+This experiment modified the number of resources free symbionts received the world, intending to make free living either more difficult or more attractive. It can be contrasted to “08.16.21 FSRD sweep with fixed starting IV and IC.” Graphs are wrapped by FSRD (free sym resource distribute).
+
+**Host Interaction Value**
+![Host Symbiont Interaction Value](../Graphs/08.16.21_free_sym_rdsweep_mixediciv/hv.png)
+
+**Free-living Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.16.21_free_sym_rdsweep_mixediciv/fsv.png)
+
+**Hosted Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.16.21_free_sym_rdsweep_mixediciv/hsv.png)
+
+**Free-living Symbiont Infection Chance**
+![Free-living Symbiont Infection Chance](../Graphs/08.16.21_free_sym_rdsweep_mixediciv/fic.png)
+
+**Hosted Symbiont Infection Chance**
+![Hosted Symbiont Infection Chance](../Graphs/08.16.21_free_sym_rdsweep_mixediciv/hic.png)
+
+**Free-living Symbiont Count**
+![Free-living Symbiont Count](../Graphs/08.16.21_free_sym_rdsweep_mixediciv/fsc.png)
+
+**Hosted Symbiont Count**
+![Hosted Symbiont Count](../Graphs/08.16.21_free_sym_rdsweep_mixediciv/hsc.png)
+
+**Symbiont Interaction Value Histogram**
+![Symbiont Interaction Value Histogram](../Graphs/08.16.21_free_sym_rdsweep_mixediciv/sv_fsrd_hist.png)
+
+**Symbiont Infection Chance Histogram**
+![Symbiont Infection Chance Histogram](../Graphs/08.16.21_free_sym_rdsweep_mixediciv/ic_fsrd_hist.png)
 
 
+## Graphs 08.16.21 Free symbiont resource distribute sweep, de novo evolution of (endo)symbiosis
+This experiment modified the number of resources free symbionts received the world, intending to make free living either more difficult or more attractive. Given that interaction values and infection chance is initialized to zero for all organisms, this investigates de novo evolution of symbiotic behaviour. It can be contrasted to “08.16.21 FSRD sweep with mixed starting IV and IC.” Graphs are wrapped by FSRD (free sym resource distribute).
+
+**Host Interaction Value**
+![Host Symbiont Interaction Value](../Graphs/08.16.21_free_sym_rdsweep/hv.png)
+
+**Free-living Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.16.21_free_sym_rdsweep/fsv.png)
+
+**Hosted Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.16.21_free_sym_rdsweep/hsv.png)
+
+**Free-living Symbiont Infection Chance**
+![Free-living Symbiont Infection Chance](../Graphs/08.16.21_free_sym_rdsweep/fic.png)
+
+**Hosted Symbiont Infection Chance**
+![Hosted Symbiont Infection Chance](../Graphs/08.16.21_free_sym_rdsweep/hic.png)
+
+**Free-living Symbiont Count**
+![Free-living Symbiont Count](../Graphs/08.16.21_free_sym_rdsweep/fsc.png)
+
+**Hosted Symbiont Count**
+![Hosted Symbiont Count](../Graphs/08.16.21_free_sym_rdsweep/hsc.png)
+
+**Symbiont Interaction Value Histogram**
+![Symbiont Interaction Value Histogram](../Graphs/08.16.21_free_sym_rdsweep/sv_fsrd_hist.png)
+
+**Symbiont Infection Chance Histogram**
+![Symbiont Infection Chance Histogram](../Graphs/08.16.21_free_sym_rdsweep/ic_fsrd_hist.png)
 
 
+## Graphs 08.16.21 Ectosymbiosis on and ectosymbiotic immunity off
+Here we examine how the new ectosymbiotic functionality impacts evolution of symbiotic behaviours. Can be contrasted to “08.16.21 Ectosymbiosis on and ectosymbiotic immunity on.”
+
+**Host Interaction Value**
+![Host Symbiont Interaction Value](../Graphs/08.16.21_ectosymbiosis_onectosymbioticimmunity_off/hv.png)
+
+**Free-living Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.16.21_ectosymbiosis_onectosymbioticimmunity_off/fsv.png)
+
+**Hosted Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.16.21_ectosymbiosis_onectosymbioticimmunity_off/hsv.png)
+
+**Free-living Symbiont Infection Chance**
+![Free-living Symbiont Infection Chance](../Graphs/08.16.21_ectosymbiosis_onectosymbioticimmunity_off/fic.png)
+
+**Hosted Symbiont Infection Chance**
+![Hosted Symbiont Infection Chance](../Graphs/08.16.21_ectosymbiosis_onectosymbioticimmunity_off/hic.png)
+
+**Free-living Symbiont Count**
+![Free-living Symbiont Count](../Graphs/08.16.21_ectosymbiosis_onectosymbioticimmunity_off/fsc.png)
+
+**Hosted Symbiont Count**
+![Hosted Symbiont Count](../Graphs/08.16.21_ectosymbiosis_onectosymbioticimmunity_off/hsc.png)
+
+**Symbiont Interaction Value Histogram**
+![Symbiont Interaction Value Histogram](../Graphs/08.16.21_ectosymbiosis_onectosymbioticimmunity_off/sv_hist.png)
+
+**Symbiont Infection Chance Histogram**
+![Symbiont Infection Chance Histogram](../Graphs/08.16.21_ectosymbiosis_onectosymbioticimmunity_off/ic_hist.png)
 
 
+## Graphs 08.16.21 Ectosymbiosis on and ectosymbiotic immunity on
+Here we examine how the new ectosymbiotic functionality impacts evolution of symbiotic behaviours when possession of a hosted symbiont renders a host immune to ectosymbiosis. Can be contrasted to “08.16.21 Ectosymbiosis on and ectosymbiotic immunity off.”
 
+**Host Interaction Value**
+![Host Symbiont Interaction Value](../Graphs/08.16.21_ectosymbiosis_on_ectosymbioticimmunity_on/hv.png)
 
+**Free-living Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.16.21_ectosymbiosis_on_ectosymbioticimmunity_on/fsv.png)
 
+**Hosted Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.16.21_ectosymbiosis_on_ectosymbioticimmunity_on/hsv.png)
 
+**Free-living Symbiont Infection Chance**
+![Free-living Symbiont Infection Chance](../Graphs/08.16.21_ectosymbiosis_on_ectosymbioticimmunity_on/fic.png)
 
+**Hosted Symbiont Infection Chance**
+![Hosted Symbiont Infection Chance](../Graphs/08.16.21_ectosymbiosis_on_ectosymbioticimmunity_on/hic.png)
 
+**Free-living Symbiont Count**
+![Free-living Symbiont Count](../Graphs/08.16.21_ectosymbiosis_on_ectosymbioticimmunity_on/fsc.png)
 
+**Hosted Symbiont Count**
+![Hosted Symbiont Count](../Graphs/08.16.21_ectosymbiosis_on_ectosymbioticimmunity_on/hsc.png)
 
+**Symbiont Interaction Value Histogram**
+![Symbiont Interaction Value Histogram](../Graphs/08.16.21_ectosymbiosis_onectosymbioticimmunity_on/sv_hist.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Symbiont Infection Chance Histogram**
+![Symbiont Infection Chance Histogram](../Graphs/08.16.21_ectosymbiosis_onectosymbioticimmunity_on/ic_hist.png)
 
 
 ## Graphs 1 svtr plot

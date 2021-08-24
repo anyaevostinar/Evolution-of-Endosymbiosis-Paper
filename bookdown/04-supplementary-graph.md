@@ -1,5 +1,121 @@
 # Supplemental Graphs
-The following are the graphs that we generated in our research.
+The following are the graphs that we generated in our research. Config settings for several of the following experiments can be found in the ../Data folder.
+
+
+## Graphs 08.23.21 Ectosymbiosis and immunity, 30 reps
+This set of graphs explores the impacts of ectosymbiosis, and immunity, on evolution of endosymbiosis with the most recent settings and a robust (and novel) set of random seeds.
+
+### Ectosymbiosis off
+**Host Interaction Value**
+![Host Symbiont Interaction Value](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_off/hv.png)
+
+**Free-living Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_off/fsv.png)
+
+**Hosted Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_off/hsv.png)
+
+**Free-living Symbiont Infection Chance**
+![Free-living Symbiont Infection Chance](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_off/fic.png)
+
+**Hosted Symbiont Infection Chance**
+![Hosted Symbiont Infection Chance](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_off/hic.png)
+
+**Free-living Symbiont Count**
+![Free-living Symbiont Count](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_off/fsc.png)
+
+**Hosted Symbiont Count**
+![Hosted Symbiont Count](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_off/hsc.png)
+
+### Ectosymbiosis on, immunity off
+**Host Interaction Value**
+![Host Symbiont Interaction Value](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_on_immunity_off/hv.png)
+
+**Free-living Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_on_immunity_off/fsv.png)
+
+**Hosted Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_on_immunity_off/hsv.png)
+
+**Free-living Symbiont Infection Chance**
+![Free-living Symbiont Infection Chance](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_on_immunity_off/fic.png)
+
+**Hosted Symbiont Infection Chance**
+![Hosted Symbiont Infection Chance](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_on_immunity_off/hic.png)
+
+**Free-living Symbiont Count**
+![Free-living Symbiont Count](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_on_immunity_off/fsc.png)
+
+**Hosted Symbiont Count**
+![Hosted Symbiont Count](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_on_immunity_off/hsc.png)
+
+### Ectosymbiosis on, immunity on
+**Host Interaction Value**
+![Host Symbiont Interaction Value](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_on_immunity_on/hv.png)
+
+**Free-living Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_on_immunity_on/fsv.png)
+
+**Hosted Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_on_immunity_on/hsv.png)
+
+**Free-living Symbiont Infection Chance**
+![Free-living Symbiont Infection Chance](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_on_immunity_on/fic.png)
+
+**Hosted Symbiont Infection Chance**
+![Hosted Symbiont Infection Chance](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_on_immunity_on/hic.png)
+
+**Free-living Symbiont Count**
+![Free-living Symbiont Count](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_on_immunity_on/fsc.png)
+
+**Hosted Symbiont Count**
+![Hosted Symbiont Count](../Graphs/08.23.21_ectosymbiosis_more_reps/ectosymbiosis_on_immunity_on/hsc.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Graphs 1 svtr plot
 Settings: Symbiont Vertical Transmission Resource Cost Sweep, Symbiont Horizontal Transmission Resource Cost 400, Mutation Rate 0.05, Infection rate 0.5

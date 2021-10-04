@@ -1,6 +1,77 @@
 # Supplemental Graphs
 The following are the graphs that we generated in our research. Config settings for several of the following experiments can be found in the ../Data folder.
 
+## Graphs 08.23.21 Ectosymbiosis, 100k updates
+This set of graphs ectosymbiosis on (and immunity on) and ectosymbiosis off for a much longer stretch of time (100k updates)
+### Ectosymbiosis off
+**Host Interaction Value**
+![Host Symbiont Interaction Value](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/hv.png)
+
+**Free-living Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/fsv.png)
+
+**Hosted Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/hsv.png)
+
+**Free-living Symbiont Infection Chance**
+![Free-living Symbiont Infection Chance](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/fic.png)
+
+**Hosted Symbiont Infection Chance**
+![Hosted Symbiont Infection Chance](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/hic.png)
+
+**Free-living Symbiont Count**
+![Free-living Symbiont Count](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/fsc.png)
+
+**Hosted Symbiont Count**
+![Hosted Symbiont Count](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/hsc.png)
+
+**Free Symbiont Interaction Value Histogram**
+![Free Symbiont Interaction Value Histogram](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/ecto1_fsv_hist.png)
+
+**Free Symbiont Infection Chance Histogram**
+![Free Symbiont Infection Chance Histogram](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/ecto1_fic_hist.png)
+
+**Hosted Symbiont Interaction Value Histogram**
+![Hosted Symbiont Interaction Value Histogram](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/ecto1_hsv_hist.png)
+
+**Hosted Symbiont Infection Chance Histogram**
+![Hosted Symbiont Infection Chance Histogram](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/ecto1_hic_hist.png)
+
+
+### Ectosymbiosis on (immunity on)
+**Host Interaction Value**
+![Host Symbiont Interaction Value](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_on_immunity_on/hv.png)
+
+**Free-living Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_on_immunity_on/fsv.png)
+
+**Hosted Symbiont Interaction Value**
+![Free-living Symbiont Interaction Value](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_on_immunity_on/hsv.png)
+
+**Free-living Symbiont Infection Chance**
+![Free-living Symbiont Infection Chance](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_on_immunity_on/fic.png)
+
+**Hosted Symbiont Infection Chance**
+![Hosted Symbiont Infection Chance](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_on_immunity_on/hic.png)
+
+**Free-living Symbiont Count**
+![Free-living Symbiont Count](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_on_immunity_on/fsc.png)
+
+**Hosted Symbiont Count**
+![Hosted Symbiont Count](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_on_immunity_on/hsc.png)
+
+**Free Symbiont Interaction Value Histogram**
+![Free Symbiont Interaction Value Histogram](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_on_immunity_on/ecto1_fsv_hist.png)
+
+**Free Symbiont Infection Chance Histogram**
+![Free Symbiont Infection Chance Histogram](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_on_immunity_on/ecto1_fic_hist.png)
+
+**Hosted Symbiont Interaction Value Histogram**
+![Hosted Symbiont Interaction Value Histogram](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_on_immunity_on/ecto1_hsv_hist.png)
+
+**Hosted Symbiont Infection Chance Histogram**
+![Hosted Symbiont Infection Chance Histogram](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_on_immunity_on/ecto1_hic_hist.png)
+
 
 ## Graphs 08.23.21 Ectosymbiosis and immunity, 30 reps
 This set of graphs explores the impacts of ectosymbiosis, and immunity, on evolution of endosymbiosis with the most recent settings and a robust (and novel) set of random seeds.

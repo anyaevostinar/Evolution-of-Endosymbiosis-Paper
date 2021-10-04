@@ -26,16 +26,16 @@ This set of graphs ectosymbiosis on (and immunity on) and ectosymbiosis off for 
 ![Hosted Symbiont Count](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/hsc.png)
 
 **Free Symbiont Interaction Value Histogram**
-![Free Symbiont Interaction Value Histogram](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/ecto1_fsv_hist.png)
+![Free Symbiont Interaction Value Histogram](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/ecto0_fsv_hist.png)
 
 **Free Symbiont Infection Chance Histogram**
-![Free Symbiont Infection Chance Histogram](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/ecto1_fic_hist.png)
+![Free Symbiont Infection Chance Histogram](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/ecto0_fic_hist.png)
 
 **Hosted Symbiont Interaction Value Histogram**
-![Hosted Symbiont Interaction Value Histogram](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/ecto1_hsv_hist.png)
+![Hosted Symbiont Interaction Value Histogram](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/ecto0_hsv_hist.png)
 
 **Hosted Symbiont Infection Chance Histogram**
-![Hosted Symbiont Infection Chance Histogram](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/ecto1_hic_hist.png)
+![Hosted Symbiont Infection Chance Histogram](../Graphs/10.03.21_ectosymbiosis_100k_updates/ectosymbiosis_off/ecto0_hic_hist.png)
 
 
 ### Ectosymbiosis on (immunity on)

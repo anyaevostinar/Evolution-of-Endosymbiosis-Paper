@@ -1,0 +1,2 @@
+This experiment is a rerun of the 08.23 experiment, but with
+ - a much longer set of updates; increased to 100 000 updates, tracking every 100

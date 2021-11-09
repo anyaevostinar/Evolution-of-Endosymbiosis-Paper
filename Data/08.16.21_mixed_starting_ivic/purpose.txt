@@ -1,0 +1,1 @@
+This test examines if there is any difference in evolutionary results if the population begins with a randomized array of infection chances and interaction vals, rather than the control test's de novo evolution.

@@ -1,0 +1,4 @@
+This test examines the evolution of symbioses under the following conditions:
+    - de novo endosymbiosis--that is, infection chance of 0 and interaction values of 0 as well.
+    - different amounts of resources are distributed to free living symbionts, ranging from 0 resources to 50 resources (as much as hosts get) to 70 resources, to see whether this may equalize horizontal transmission and vertical transmission (at higher free sym resource distribution amounts, free-world horizontal transmission is much more achievable than hosted vertical tranmission)
+

@@ -1,0 +1,3 @@
+This experiment is a rerun of the 08.19 experiment, but with 
+ - a larger number of reps: 1001-1030 instead of 10-21 (inclusive for both ranges).
+ - using commit f631a2fb40d10ca1db9945d1bfbc947a9ee465f3   , which functions the same (added a few comments)

@@ -1,0 +1,1 @@
+With this test we're aiming to improve conditions for hosted syms, by giving their hosts more resources, and checking at what svtr mutualism evolves.

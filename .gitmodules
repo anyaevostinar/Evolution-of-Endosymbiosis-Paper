@@ -3,4 +3,5 @@
 	url = https://github.com/devosoft/Empirical.git
 [submodule "SymbulationEmp"]
 	path = SymbulationEmp
-	url = https://github.com/piperwelch/SymbulationEmp
+	url = https://github.com/anyaevostinar/SymbulationEmp
+	branch = refactor

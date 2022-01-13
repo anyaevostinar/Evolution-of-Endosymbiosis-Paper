@@ -1,0 +1,1 @@
+A control treatment where the hosts all start at -1 interaction value and aren't able to evolve and so symbionts should stay completely independent because there is no benefit for them. Hosts also can't die of old age (because they can't reproduce at this setting) and start with a full population.

@@ -15,6 +15,7 @@ colors <- plasma(11)
 ##################################
 ### STANDARD SET OF LINE PLOTS ###
 ##################################
+#to remove the break down into replicates, comment out '+ facet_wrap(~rep)'
 ggplot(data=initial_data, aes(x=update, y=free_sym_val, group=VAR, colour=VAR)) + 
   ylab("Free Sym Val") + xlab("Time") + 
   stat_summary(aes(color=VAR, fill=VAR),fun.data="mean_cl_boot", geom=c("smooth"), se=TRUE) + 
@@ -31,7 +32,7 @@ ggplot(data=initial_data, aes(x=update, y=hosted_sym_val, group=VAR, colour=VAR)
   theme(panel.background = element_rect(fill='white', colour='black')) + 
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) + 
   guides(fill="none") +  scale_colour_manual(name="VT", values=colors) + scale_fill_manual(values=colors) +
-  ylim(-1.1,1.1) #+ facet_wrap(~svtr)
+  ylim(-1.1,1.1) #+ facet_wrap(~rep)
 
 ggplot(data=initial_data, aes(x=update, y=host_val, group=VAR, colour=VAR)) + 
   ylab("Host Val") + xlab("Time") + 
@@ -47,7 +48,7 @@ ggplot(data=initial_data, aes(x=update, y=free_sym_infectchance, group=VAR, colo
   theme(panel.background = element_rect(fill='white', colour='black')) + 
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) + 
   guides(fill="none") +  scale_colour_manual(name="VT", values=colors) + scale_fill_manual(values=colors) +
-  ylim(-0.01,1.01) #+ facet_wrap(~svtr)
+  ylim(-0.01,1.01) #+ facet_wrap(~rep)
 
 ggplot(data=initial_data, aes(x=update, y=hosted_sym_infectchance, group=VAR, colour=VAR)) + 
   ylab("Hosted Sym Infection Chance") + xlab("Time") + 
@@ -63,7 +64,7 @@ ggplot(data=initial_data, aes(x=update, y=hosted_sym_count, group=VAR, colour=VA
   theme(panel.background = element_rect(fill='white', colour='black')) + 
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) + 
   guides(fill="none") +  scale_colour_manual(name="VT", values=colors) + scale_fill_manual(values=colors) +
-  scale_y_continuous(labels = comma, limits=c(-1,10001)) #+ facet_wrap(~svtr)
+  scale_y_continuous(labels = comma, limits=c(-1,10001)) #+ facet_wrap(~rep)
 
 ggplot(data=initial_data, aes(x=update, y=free_sym_count, group=VAR, colour=VAR)) + 
   ylab("Free Sym Count") + xlab("Time") + 
@@ -71,4 +72,17 @@ ggplot(data=initial_data, aes(x=update, y=free_sym_count, group=VAR, colour=VAR)
   theme(panel.background = element_rect(fill='white', colour='black')) + 
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) + 
   guides(fill="none") +  scale_colour_manual(name="VT", values=colors) + scale_fill_manual(values=colors) +
-  scale_y_continuous(labels = comma, limits=c(-1,10001)) #+ facet_wrap(~svtr)
+  scale_y_continuous(labels = comma, limits=c(-1,10001)) #+ facet_wrap(~rep)
+
+####################
+###### RATIOS ######
+####################
+initial_data <-subset(initial_data, update <30001)
+
+ggplot(data=initial_data, aes(x=update, y=(hosted_sym_count/free_sym_count), group=VAR, colour=VAR)) + 
+  ylab("Hosted/Free Sym Count") + xlab("Time") + 
+  stat_summary(aes(color=VAR, fill=VAR),fun.data="mean_cl_boot", geom=c("smooth"), se=TRUE) + 
+  theme(panel.background = element_rect(fill='white', colour='black')) + 
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) + 
+  guides(fill="none") +  scale_colour_manual(name="VT", values=colors) + scale_fill_manual(values=colors) +
+  scale_y_continuous(labels = comma) + facet_wrap(~rep)

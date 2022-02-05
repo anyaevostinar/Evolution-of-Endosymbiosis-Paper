@@ -8,7 +8,7 @@ reps = range(10,41)
 header = "uid smoi rep vt update host_count sym_count free_sym_count hosted_sym_count sym_infectchance free_sym_infectchance hosted_sym_infectchance sym_val free_sym_val hosted_sym_val host_val cfu\n"
 
 vts = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
-outputFileName = "ectoonly_munged_data.dat"
+outputFileName = "vtsweep_munged_data.dat"
 
 outFile = open(outputFileName, 'w')
 outFile.write(header)

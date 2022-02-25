@@ -16,11 +16,13 @@ other_data <- cbind(other_data, ecto="With Ectosymbiosis")
 
 symbiont_final <-subset(initial_data, update == 100000)
 symbiont_final2 <-subset(other_data, update == 100000)
+
 #Command for nan to 0 
 
 symbiont_final$HR <- factor(symbiont_final$HR, levels=c("HR10", "HR50", "HR100", "HR500", "HR1000"))
 symbiont_final$SR <- factor(symbiont_final$SR, levels=c("SR10", "SR50", "SR100", "SR500", "SR1000"))
 symbiont_final$ratio[is.nan(symbiont_final$ratio)]<-0
+symbiont_final$symHostedDonate[is.na(symbiont_final$symHostedDonate)] <- -2
 
 symbiont_final2$HR <- factor(symbiont_final2$HR, levels=c("HR10", "HR50", "HR100", "HR500", "HR1000"))
 symbiont_final2$SR <- factor(symbiont_final2$SR, levels=c("SR10", "SR50", "SR100", "SR500", "SR1000"))
@@ -37,17 +39,25 @@ ggplot(data=symbiont_final, aes(x=HR, y=symHostedCount, color=SR)) + geom_boxplo
 
 ggplot(data=symbiont_final, aes(x=HR, y=symFreeCount, color=SR)) + geom_boxplot(alpha=0.5, outlier.size=0) + ylab("Final Free Symbiont Count") + xlab("Resources per Host per Update") + theme(panel.background = element_rect(fill='white', colour='black')) + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())  + scale_color_manual(name = "Free-living Symbiont \nresources per symbiont\n per update", values=viridis(5))
 
-colorz <- c("SR50" = "#2d718e", "SR100" = "#42be71", "SR500" = "#96d840", "SR1000" = "#fFFF00")
 labelForX <- c("100", "500", "1000")
-labelForLeg = c("50", "100", "500", "1000")
-#Yes
-View(symbiont_final)
+#4 in x 7 in
+ggplot(data=combined, aes(x=HR, y=ratio, color=SR)) + geom_boxplot(alpha=0.5, outlier.size=0) + ylab("Ratio of Endosymbionts to Free-living Symbionts") + xlab("Resources per Host per Update") + theme(panel.background = element_rect(fill='white', colour='black')) + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())  + scale_color_manual(name = "FLS Resources", values=viridis(5), labels = labelForLeg) + scale_x_discrete(labels= labelForX) + ylim(0, 6) + facet_wrap(~ecto)
+
+
+#Just endo graphs
+labelForX <- c("10", "50", "100", "500", "1000")
+labelForLeg <- c("10", "50", "100", "500", "1000")
+#4 in x 4 in
+ggplot(data=symbiont_final, aes(x=HR, y=ratio, color=SR)) + geom_boxplot(alpha=0.5, outlier.size=0) + ylab("Ratio of Endosymbionts to Free-living Symbionts") + xlab("Resources per Host per Update") + theme(panel.background = element_rect(fill='white', colour='black')) + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), legend.position = c(0.2, 0.75))  + scale_color_manual(name = "FLS Resources", values=viridis(5), labels = labelForLeg) + scale_x_discrete(labels= labelForX) + ylim(0, 6) 
+
+#4 in x 4 in
+ggplot(data=symbiont_final, aes(x=HR, y=symHostedDonate, color=SR)) + geom_boxplot(alpha=0.5, outlier.size=0) + ylab("Final Endosymbiont Interaction Value") + xlab("Resources per Host per Update") + theme(panel.background = element_rect(fill='white', colour='black')) + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), legend.position = c(0.2, 0.75))  + scale_color_manual(name = "FLS Resources", values=viridis(5), drop=FALSE, labels = labelForLeg) +ylim(-1,1) + scale_x_discrete(labels= labelForX)
  
-ggplot(data=combined, aes(x=HR, y=ratio, color=SR)) + geom_boxplot(alpha=0.5, outlier.size=0) + ylab("Ratio of Endosymbionts to Free-living Symbionts") + xlab("Resources per Host per Update") + theme(panel.background = element_rect(fill='white', colour='black')) + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())  + scale_color_manual(name = "Free-living Symbiont \nresources per symbiont\nper update", values=viridis(5), labels = labelForLeg) + scale_x_discrete(labels= labelForX) + ylim(0, 6) + facet_wrap(~ecto)
+
 
 
 #Yes 
-ggplot(data=symbiont_final, aes(x=HR, y=symHostedDonate, color=SR)) + geom_boxplot(alpha=0.5, outlier.size=0) + ylab("Final Endosymbiont Interaction Value") + xlab("Resources per Host per Update") + theme(panel.background = element_rect(fill='white', colour='black')) + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())  + scale_color_manual(name = "Free-living Symbiont \nresources per symbiont\nper update", values=viridis(4), labels = labelForLeg) +ylim(-1,1) + scale_x_discrete(labels= labelForX)
+
 
 View(symbiont_final)
 
